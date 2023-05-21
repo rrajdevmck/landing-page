@@ -1,21 +1,15 @@
 @import url("/public/assets/fonts/Inter_600.css");
 @import url("/public/assets/fonts/Inter_500.css");
 @import url("/public/assets/fonts/Inter_400.css");
-
 body {
   margin: 0;
   padding: 0;
+}
+details,
+summary {
+  all: unset;
 }
 button {
   all: unset;
   cursor: pointer;
 }
-
-/* My Changes */
-/* a {
-	all: unset;
-}
-
-body {
-	all: unset;
-} */

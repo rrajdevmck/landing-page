@@ -1,0 +1,57 @@
+.MetricItem {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: none;
+  width: 285px;
+  box-sizing: border-box;
+}
+
+.MetricItemNumber {
+  color: rgb(127, 86, 217);
+  text-overflow: ellipsis;
+  font-size: 60px;
+  font-family: Inter, sans-serif;
+  font-weight: initial;
+  letter-spacing: -1px;
+  line-height: 72px;
+  text-align: center;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+
+.MetricItemInfo {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.MetricItemInfoText {
+  color: rgb(16, 24, 40);
+  text-overflow: ellipsis;
+  font-size: 18px;
+  font-family: Inter, sans-serif;
+  font-weight: initial;
+  line-height: 28px;
+  text-align: center;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+
+.MetricItemInfoSupportingText {
+  color: rgb(102, 112, 133);
+  text-overflow: ellipsis;
+  font-size: 16px;
+  font-family: Inter, sans-serif;
+  font-weight: initial;
+  line-height: 24px;
+  text-align: center;
+  align-self: stretch;
+  flex-shrink: 0;
+}

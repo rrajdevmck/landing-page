@@ -4,12 +4,16 @@ import "../index.css";
 import "./LandingPage.css";
 import SecondaryLink from "~/components/SecondaryLink";
 import PrimaryButton from "~/components/PrimaryButton";
+import Avatar from "~/components/Avatar";
+import FAQDetail from "~/components/FAQDetail";
+import MetricItem from "~/components/MetricItem";
+import TertiaryButton from "~/components/TertiaryButton";
 
 const LandingPage = (props) => {
   return (
     <div className="RootWrapperLandingPage">
       <div className="WhitePaddingContainer">
-        <div className="Navbar">
+        <nav className="Navbar">
           <div className="LeftNavItems">
             <img
               className="UntitledUiLogo"
@@ -26,8 +30,8 @@ const LandingPage = (props) => {
             <SecondaryLink text="Log in"></SecondaryLink>
             <PrimaryButton text="Sign up"></PrimaryButton>
           </div>
-        </div>
-        <div className="LandingSection">
+        </nav>
+        <section className="LandingSection">
           <div className="LandingSectionContent">
             <div className="Badge">
               <div className="BadgeBase">
@@ -43,9 +47,9 @@ const LandingPage = (props) => {
                 ></img>
               </div>
             </div>
-            <span className="LandingHeading">
+            <h1 className="LandingHeading">
               Beautiful analytics to grow smarter
-            </span>
+            </h1>
             <span className="LandingSupportingText">
               Powerful, self-serve product and growth analytics to help you
               convert, engage, and retain more users. Trusted by over 4,000
@@ -53,23 +57,23 @@ const LandingPage = (props) => {
             </span>
           </div>
           <div className="LandingSectionButtonGroup">
-            <div className="TertiaryIconButton">
+            <button className="TertiaryIconButton">
               <img
                 className="PlayCircle"
                 src="public/assets/icons/playcircle.svg"
               ></img>
               <span className="TertiaryIconButtonText">Demo</span>
-            </div>
-            <div className="BigPrimaryButton">
+            </button>
+            <button className="BigPrimaryButton">
               <span className="Text">Sign up</span>
-            </div>
+            </button>
           </div>
           <img
             className="ImageWithAnalytics"
             src="public/assets/images/imageWithAnalytics.png"
           ></img>
-        </div>
-        <div className="SocialProofSection">
+        </section>
+        <section className="SocialProofSection">
           <span className="SocialProofSectionText">
             Join 4,000+ companies already growing
           </span>
@@ -95,18 +99,18 @@ const LandingPage = (props) => {
               src="public/assets/images/QuotientLogo.png"
             ></img>
           </div>
-        </div>
+        </section>
         <hr className="Divider"></hr>
-        <div className="FeatureSectionInfo">
+        <section className="FeatureSection">
           <span className="FetaureSectionName">Features</span>
-          <span className="FeatureSectionHeading">
+          <h1 className="FeatureSectionHeading">
             Analytics that feels like it’s from the future
-          </span>
-          <span className="FeatureSectionSubHeading">
+          </h1>
+          <h1 className="FeatureSectionSubHeading">
             Powerful, self-serve product and growth analytics to help you
             convert, engage, and retain more users. Trusted by over 4,000
             startups.
-          </span>
+          </h1>
           <div className="Features">
             <div className="FeaturesRow">
               <div className="FeatureGroup">
@@ -206,10 +210,10 @@ const LandingPage = (props) => {
               </div>
             </div>
           </div>
-        </div>
+        </section>
       </div>
       <div className="GrayPaddingContainer">
-        <div className="QuoteSection">
+        <section className="QuoteSection">
           <img
             className="SisyphusLogoRemovebgPreview1"
             src="public/assets/images/SisyphusLogoremovebgpreview.png"
@@ -220,10 +224,7 @@ const LandingPage = (props) => {
               can’t imagine working without it.
             </span>
             <div className="QuoteAvatar">
-              <img
-                className="AvatarImage"
-                src="public/assets/images/AvatarImage.png"
-              ></img>
+              <Avatar></Avatar>
               <div className="AvatarInfo">
                 <span className="AvatarName">Candice Wu</span>
                 <span className="AvatarDescription">
@@ -232,7 +233,117 @@ const LandingPage = (props) => {
               </div>
             </div>
           </div>
-        </div>
+        </section>
+      </div>
+      <div className="WhiteContainerPadding">
+        <section className="FaqSection">
+          <div className="FaqInfo">
+            <h1 className="FaqHeading">Frequently asked questions</h1>
+            <span className="FaqSupportingText">
+              Everything you need to know about the product and billing.
+            </span>
+          </div>
+          <div className="FaQs">
+            <FAQDetail
+              detailSummaryText="Is there a free trial available?"
+              detailText="Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up"
+            ></FAQDetail>
+            <FAQDetail
+              detailSummaryText="Is there a free trial available?"
+              detailText="Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up"
+            ></FAQDetail>
+            <FAQDetail
+              detailSummaryText="Is there a free trial available?"
+              detailText="Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up"
+            ></FAQDetail>
+          </div>
+          <div className="FaqContact">
+            <div className="AvatarGroup">
+              <div className="AvatarGroupImage3">
+                <Avatar></Avatar>
+              </div>
+              <div className="AvatarGroupImage2">
+                <Avatar></Avatar>
+              </div>
+              <div className="AvatarGroupImage1">
+                <Avatar></Avatar>
+              </div>
+            </div>
+            <div className="HeadingAndSupportingText">
+              <h1 className="Heading">Still have questions?</h1>
+              <span className="SupportingText">
+                Can’t find the answer you’re looking for? Please chat to our
+                friendly team.
+              </span>
+            </div>
+            <div className="Actions">
+              <PrimaryButton text="Get In Touch"></PrimaryButton>
+            </div>
+          </div>
+        </section>
+        <hr className="Divider"></hr>
+        <section className="MetricsSection">
+          <div className="MetricsSectionHeadingContainer">
+            <div className="MetricsSectionHeadingContent">
+              <div className="MetricsSectionHeadingContentContainer">
+                <h1 className="MetricsSectionSubheading">Launch faster</h1>
+                <h1 className="MetricsSectionHeading">Build something great</h1>
+              </div>
+              <span className="HeadingSupportingText">
+                We’ve done all the heavy lifting so you don’t have to — get all
+                the data you need to launch and grow your business faster.
+              </span>
+            </div>
+          </div>
+          <div className="MetricsSectionInfoContainer">
+            <div className="MetricItemContent">
+              <div className="MetricItemRow">
+                <MetricItem
+                  metricItemInfoSupportingText="We’ve helped over 4,000 amazing global companies."
+                  metricItemInfoText="Global customers"
+                  metricItemNumber="4000+"
+                ></MetricItem>
+                <MetricItem
+                  metricItemInfoSupportingText="Our customers have reported an average of ~600% ROI."
+                  metricItemInfoText="Return on investment"
+                  metricItemNumber="600%"
+                ></MetricItem>
+              </div>
+              <div className="MetricItemRow">
+                <MetricItem
+                  metricItemInfoSupportingText="Our app has been downloaded over 10k times."
+                  metricItemInfoText="Global downloads"
+                  metricItemNumber="10k"
+                ></MetricItem>
+                <MetricItem
+                  metricItemInfoSupportingText="We’re proud of our 5-star rating with over 200 reviews."
+                  metricItemInfoText="5-star reviews"
+                  metricItemNumber="200+"
+                ></MetricItem>
+              </div>
+            </div>
+            <img
+              className="MetricSectionImage"
+              src="public/assets/images/MetricSectionImage.png"
+            ></img>
+          </div>
+        </section>
+      </div>
+      <div className="GrayPaddingContainer">
+        <section className="CtaSection">
+          <div className="CtaSectionContentContainer">
+            <div className="CtaSectionContent">
+              <h1 className="CtaSectionHeading">Start your free trial</h1>
+              <h1 className="CtaSectionSubHeading">
+                Join over 4,000+ startups already growing with Untitled.
+              </h1>
+            </div>
+            <div className="CtaSectionActions">
+              <TertiaryButton text="Learn More"></TertiaryButton>
+              <PrimaryButton text="Get Started"></PrimaryButton>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
   );

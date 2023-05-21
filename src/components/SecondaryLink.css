@@ -1,0 +1,19 @@
+.SecondaryLink {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: flex-start;
+  flex: none;
+  gap: 10px;
+  box-sizing: border-box;
+}
+
+.SecondaryLinkText {
+  color: rgb(102, 112, 133);
+  text-overflow: ellipsis;
+  font-size: 14px;
+  font-family: Inter, sans-serif;
+  font-weight: initial;
+  line-height: 20px;
+  text-align: left;
+}

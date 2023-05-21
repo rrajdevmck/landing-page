@@ -4,7 +4,7 @@ import "./MetricItem.css";
 
 const MetricItem = (props) => {
   return (
-    <li className="MetricItem">
+    <div className="MetricItem">
       <span className="MetricItemNumber">4000+</span>
       <div className="MetricItemInfo">
         <span className="MetricItemInfoText">Global customers</span>
@@ -12,7 +12,7 @@ const MetricItem = (props) => {
           We’ve helped over 4,000 amazing global companies.
         </span>
       </div>
-    </li>
+    </div>
   );
 };
 

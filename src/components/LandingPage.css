@@ -340,12 +340,13 @@
 }
 
 .Divider {
-  width: 1192px;
   height: 1px;
   background-color: rgb(234, 236, 240);
+  align-self: stretch;
+  flex-shrink: 0;
 }
 
-.FeatureSectionInfo {
+.FeatureSection {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -1016,6 +1017,7 @@
   align-items: flex-start;
   flex: none;
   gap: 32px;
+  width: 1020px;
   box-sizing: border-box;
   padding: 40px 0px;
 }
@@ -1123,9 +1125,10 @@
 }
 
 .Divider_0001 {
-  width: 1192px;
   height: 1px;
   background-color: rgb(234, 236, 240);
+  align-self: stretch;
+  flex-shrink: 0;
 }
 
 .MetricsSection {
@@ -1337,4 +1340,129 @@
   flex: none;
   gap: 12px;
   box-sizing: border-box;
+}
+
+.WhiteContainerPadding_0001 {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  box-sizing: border-box;
+  padding: 0px 100px;
+  flex-shrink: 0;
+}
+
+.Footer {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+  align-self: stretch;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 64px 0px 48px;
+  flex-shrink: 0;
+}
+
+.FooterLinksContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-start;
+  align-self: stretch;
+  box-sizing: border-box;
+  padding: 0px 32px;
+  flex-shrink: 0;
+}
+
+.FooterLinks1 {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: flex-start;
+  flex: none;
+  gap: 157px;
+  box-sizing: border-box;
+}
+
+.FooterLinks2 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-start;
+  flex: none;
+  width: 331px;
+  box-sizing: border-box;
+}
+
+.FooterLinks3 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-start;
+  flex: none;
+  width: 285px;
+  box-sizing: border-box;
+}
+
+.FooterContentContainer {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  align-self: stretch;
+  box-sizing: border-box;
+  padding: 0px 32px;
+  flex-shrink: 0;
+}
+
+.Divider_0002 {
+  height: 1px;
+  background-color: rgb(234, 236, 240);
+  align-self: stretch;
+  flex-shrink: 0;
+}
+
+.FooterContent {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  align-self: stretch;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.UntitledUiLogo_0001 {
+  width: 132px;
+  height: 31px;
+  object-fit: cover;
+}
+
+.FooterText {
+  color: rgb(152, 162, 179);
+  text-overflow: ellipsis;
+  font-size: 16px;
+  font-family: Inter, sans-serif;
+  font-weight: initial;
+  line-height: 24px;
+  text-align: left;
+  width: 293px;
+}
+
+@media screen and (min-width: 371px) and (max-width: 1480px) {
+  .RootWrapperLandingPage {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 24px 0px;
+  }
 }

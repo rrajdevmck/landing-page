@@ -8,6 +8,7 @@ import Avatar from "~/components/Avatar";
 import FAQDetail from "~/components/FAQDetail";
 import MetricItem from "~/components/MetricItem";
 import TertiaryButton from "~/components/TertiaryButton";
+import FooterLinksColumn from "~/components/FooterLinksColumn";
 
 const LandingPage = (props) => {
   return (
@@ -345,6 +346,34 @@ const LandingPage = (props) => {
           </div>
         </section>
       </div>
+      <footer className="Footer">
+        <div className="FooterLinksContainer">
+          <div className="FooterLinks1">
+            <FooterLinksColumn footerHeading="Product"></FooterLinksColumn>
+            <FooterLinksColumn footerHeading="Company"></FooterLinksColumn>
+          </div>
+          <div className="FooterLinks2">
+            <FooterLinksColumn footerHeading="Resources"></FooterLinksColumn>
+            <FooterLinksColumn footerHeading="Use Cases"></FooterLinksColumn>
+          </div>
+          <div className="FooterLinks3">
+            <FooterLinksColumn footerHeading="Social"></FooterLinksColumn>
+            <FooterLinksColumn footerHeading="Legal"></FooterLinksColumn>
+          </div>
+        </div>
+        <div className="FooterContentContainer">
+          <hr className="Divider"></hr>
+          <div className="FooterContent">
+            <img
+              className="UntitledUiLogo"
+              src="public/assets/images/untitleduilogo.png"
+            ></img>
+            <span className="FooterText">
+              © 2077 Untitled UI. All rights reserved.
+            </span>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };

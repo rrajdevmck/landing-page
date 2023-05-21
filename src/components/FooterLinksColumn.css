@@ -1,0 +1,32 @@
+.FooterLinksColumn {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: none;
+  gap: 16px;
+  width: 100px;
+  height: 216px;
+  box-sizing: border-box;
+}
+
+.FooterLinkHeading {
+  color: rgb(152, 162, 179);
+  text-overflow: ellipsis;
+  font-size: 14px;
+  font-family: Inter, sans-serif;
+  font-weight: initial;
+  line-height: 20px;
+  text-align: left;
+}
+
+.FooterLinksColumnContainer {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}

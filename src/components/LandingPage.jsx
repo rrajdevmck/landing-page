@@ -43,8 +43,8 @@ const LandingPage = (props) => {
           <div className="LandingSectionButtonGroup">
             <button className="TertiaryIconButton">
               <img
-                className="PlayCircle"
-                src="public/assets/icons/playcircle.svg"
+                className="PlayCircleIcon1"
+                src="public/assets/images/playcircleicon.png"
               ></img>
               <span className="TertiaryIconButtonText">Demo</span>
             </button>
@@ -100,8 +100,8 @@ const LandingPage = (props) => {
               <div className="FeatureGroup">
                 <div className="FeaturedIcon">
                   <img
-                    className="Mail"
-                    src="public/assets/icons/mail.svg"
+                    className="MailIcon1"
+                    src="public/assets/images/mailIcon.png"
                   ></img>
                 </div>
                 <div className="TextAndSupportingText">
@@ -114,7 +114,10 @@ const LandingPage = (props) => {
               </div>
               <div className="FeatureGroup">
                 <div className="FeaturedIcon">
-                  <img className="Zap" src="public/assets/icons/zap.svg"></img>
+                  <img
+                    className="ZapIcon1"
+                    src="public/assets/images/ZapIcon.png"
+                  ></img>
                 </div>
                 <div className="TextAndSupportingText">
                   <span className="Text">Deliver instant answers</span>
@@ -126,10 +129,12 @@ const LandingPage = (props) => {
               </div>
               <div className="FeatureGroup">
                 <div className="FeaturedIcon">
-                  <img
-                    className="BarChart2"
-                    src="public/assets/icons/barchart.svg"
-                  ></img>
+                  <div className="BarChart2">
+                    <img
+                      className="BarChart21"
+                      src="public/assets/images/barchart.png"
+                    ></img>
+                  </div>
                 </div>
                 <div className="TextAndSupportingText">
                   <span className="Text">Manage your team with reports</span>
@@ -145,8 +150,8 @@ const LandingPage = (props) => {
               <div className="FeatureGroup">
                 <div className="FeaturedIcon">
                   <img
-                    className="Smile"
-                    src="public/assets/icons/playcircle.svg"
+                    className="SmileIcon"
+                    src="public/assets/images/SmileIcon.png"
                   ></img>
                 </div>
                 <div className="TextAndSupportingText">
@@ -161,8 +166,8 @@ const LandingPage = (props) => {
               <div className="FeatureGroup">
                 <div className="FeaturedIcon">
                   <img
-                    className="Command"
-                    src="public/assets/icons/command.svg"
+                    className="CommandIcon"
+                    src="public/assets/images/CommandIcon.png"
                   ></img>
                 </div>
                 <div className="TextAndSupportingText">
@@ -178,10 +183,12 @@ const LandingPage = (props) => {
               </div>
               <div className="FeatureGroup">
                 <div className="FeaturedIcon">
-                  <img
-                    className="MessageCircle"
-                    src="public/assets/icons/messagecircle.svg"
-                  ></img>
+                  <div className="MessageCircle">
+                    <img
+                      className="MessageCircle1"
+                      src="public/assets/images/messagecircle.png"
+                    ></img>
+                  </div>
                 </div>
                 <div className="TextAndSupportingText">
                   <span className="Text">Our people make the difference</span>

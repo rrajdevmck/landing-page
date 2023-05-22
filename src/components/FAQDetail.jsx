@@ -6,18 +6,13 @@ const FAQDetail = (props) => {
   return (
     <details className="FaqDetail">
       <summary className="DetailSummary">
-        <span className="FaqDetailSummaryText">
-          Is there a free trial available?
-        </span>
+        <span className="FaqDetailSummaryText">{props.detailSummaryText}</span>
         <img
-          className="MinusCircle"
-          src="public/assets/icons/playcircle.svg"
+          className="MinuxCircle1"
+          src="public/assets/images/minuxcircle.png"
         ></img>
       </summary>
-      <span className="FaqDetailParagraph">
-        Yes, you can try us for free for 30 days. If you want, we’ll provide you
-        with a free, personalized 30-minute onboarding call to get you up
-      </span>
+      <span className="FaqDetailParagraph">{props.detailText}</span>
     </details>
   );
 };

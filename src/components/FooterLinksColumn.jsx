@@ -6,7 +6,7 @@ import "./FooterLinksColumn.css";
 const FooterLinksColumn = (props) => {
   return (
     <div className="FooterLinksColumn">
-      <h1 className="FooterLinkHeading">Product</h1>
+      <h1 className="FooterLinkHeading">{props.footerHeading}</h1>
       <div className="FooterLinksColumnContainer">
         <SecondaryLink text="Overview"></SecondaryLink>
         <SecondaryLink text="Features"></SecondaryLink>

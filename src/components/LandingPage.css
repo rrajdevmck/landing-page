@@ -376,22 +376,13 @@
   position: relative;
 }
 
-.Mail {
-  width: 24px;
-  height: 24px;
-  overflow: hidden;
-  position: absolute;
-  left: 12px;
-  top: 12px;
-}
-
-.MailIcon {
+.MailIcon1 {
+  width: 22px;
+  height: 18px;
   object-fit: cover;
   position: absolute;
-  left: 2px;
-  top: 4px;
-  right: 2px;
-  bottom: 4px;
+  left: 13px;
+  top: 15px;
 }
 
 .TextAndSupportingText {
@@ -448,22 +439,13 @@
   position: relative;
 }
 
-.Zap {
-  width: 24px;
-  height: 24px;
-  overflow: hidden;
-  position: absolute;
-  left: 12px;
-  top: 12px;
-}
-
-.ZapIcon {
+.ZapIcon1 {
+  width: 20px;
+  height: 22px;
   object-fit: cover;
   position: absolute;
-  left: 3px;
-  top: 2px;
-  right: 3px;
-  bottom: 2px;
+  left: 14px;
+  top: 13px;
 }
 
 .TextAndSupportingText_0001 {
@@ -529,13 +511,13 @@
   top: 12px;
 }
 
-.BarChartIcon {
+.BarChart21 {
+  width: 24px;
+  height: 24px;
   object-fit: cover;
   position: absolute;
-  left: 6px;
-  top: 4px;
-  right: 6px;
-  bottom: 4px;
+  left: 0px;
+  top: 0px;
 }
 
 .TextAndSupportingText_0002 {
@@ -603,22 +585,13 @@
   position: relative;
 }
 
-.Smile {
-  width: 24px;
-  height: 24px;
-  overflow: hidden;
-  position: absolute;
-  left: 12px;
-  top: 12px;
-}
-
 .SmileIcon {
+  width: 22px;
+  height: 22px;
   object-fit: cover;
   position: absolute;
-  left: 2px;
-  top: 2px;
-  right: 2px;
-  bottom: 2px;
+  left: 13px;
+  top: 13px;
 }
 
 .TextAndSupportingText_0003 {
@@ -675,22 +648,13 @@
   position: relative;
 }
 
-.Command {
-  width: 24px;
-  height: 24px;
-  overflow: hidden;
-  position: absolute;
-  left: 12px;
-  top: 12px;
-}
-
 .CommandIcon {
+  width: 20px;
+  height: 20px;
   object-fit: cover;
   position: absolute;
-  left: 3px;
-  top: 3px;
-  right: 3px;
-  bottom: 3px;
+  left: 14px;
+  top: 14px;
 }
 
 .TextAndSupportingText_0004 {
@@ -756,13 +720,13 @@
   top: 12px;
 }
 
-.MessageCircleIcon {
+.MessageCircle1 {
+  width: 24px;
+  height: 24px;
   object-fit: cover;
   position: absolute;
-  left: 3px;
+  left: -1px;
   top: 3px;
-  right: 3px;
-  bottom: 3px;
 }
 
 .TextAndSupportingText_0005 {
@@ -1399,7 +1363,7 @@
   width: 293px;
 }
 
-@media screen and (min-width: 371px) and (max-width: 1480px) {
+@media screen and (min-width: 640px) and (max-width: 767px) {
   .RootWrapperLandingPage {
     display: flex;
     justify-content: flex-start;

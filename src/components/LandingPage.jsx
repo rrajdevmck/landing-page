@@ -339,15 +339,13 @@ const LandingPage = (props) => {
       <div className="WhiteContainerPadding">
         <footer className="Footer">
           <div className="FooterLinksContainer">
-            <div className="FooterLinks1">
+            <div className="FooterLinksGroup">
               <FooterLinksColumn footerHeading="Product"></FooterLinksColumn>
               <FooterLinksColumn footerHeading="Company"></FooterLinksColumn>
-            </div>
-            <div className="FooterLinks2">
               <FooterLinksColumn footerHeading="Resources"></FooterLinksColumn>
-              <FooterLinksColumn footerHeading="Use Cases"></FooterLinksColumn>
             </div>
-            <div className="FooterLinks3">
+            <div className="FooterLinksGroup">
+              <FooterLinksColumn footerHeading="Use Cases"></FooterLinksColumn>
               <FooterLinksColumn footerHeading="Social"></FooterLinksColumn>
               <FooterLinksColumn footerHeading="Legal"></FooterLinksColumn>
             </div>

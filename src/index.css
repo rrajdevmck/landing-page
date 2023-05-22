@@ -13,3 +13,15 @@ button {
   all: unset;
   cursor: pointer;
 }
+
+
+/* Custom Added Css */
+#root {
+  max-width: 100vw;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+* {
+  flex-wrap: wrap;
+}

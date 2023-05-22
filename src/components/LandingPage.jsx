@@ -2,10 +2,10 @@ import React from "react";
 
 import "../index.css";
 import "./LandingPage.css";
-import SecondaryLink from "~/components/SecondaryLink";
-import PrimaryButton from "~/components/PrimaryButton";
+import Navbar from "~/components/Navbar";
 import Avatar from "~/components/Avatar";
 import FAQDetail from "~/components/FAQDetail";
+import PrimaryButton from "~/components/PrimaryButton";
 import MetricItem from "~/components/MetricItem";
 import TertiaryButton from "~/components/TertiaryButton";
 import FooterLinksColumn from "~/components/FooterLinksColumn";
@@ -14,24 +14,7 @@ const LandingPage = (props) => {
   return (
     <div className="RootWrapperLandingPage">
       <div className="WhitePaddingContainer">
-        <nav className="Navbar">
-          <div className="LeftNavItems">
-            <img
-              className="UntitledUiLogo"
-              src="public/assets/images/untitleduilogo.png"
-            ></img>
-            <div className="LeftNavLinks">
-              <SecondaryLink text="Home"></SecondaryLink>
-              <SecondaryLink text="Products"></SecondaryLink>
-              <SecondaryLink text="Resources"></SecondaryLink>
-              <SecondaryLink text="Pricing"></SecondaryLink>
-            </div>
-          </div>
-          <div className="RightNavItems">
-            <SecondaryLink text="Log in"></SecondaryLink>
-            <PrimaryButton text="Sign up"></PrimaryButton>
-          </div>
-        </nav>
+        <Navbar></Navbar>
         <section className="LandingSection">
           <div className="LandingSectionContent">
             <div className="Badge">
@@ -346,34 +329,36 @@ const LandingPage = (props) => {
           </div>
         </section>
       </div>
-      <footer className="Footer">
-        <div className="FooterLinksContainer">
-          <div className="FooterLinks1">
-            <FooterLinksColumn footerHeading="Product"></FooterLinksColumn>
-            <FooterLinksColumn footerHeading="Company"></FooterLinksColumn>
+      <div className="WhiteContainerPadding">
+        <footer className="Footer">
+          <div className="FooterLinksContainer">
+            <div className="FooterLinks1">
+              <FooterLinksColumn footerHeading="Product"></FooterLinksColumn>
+              <FooterLinksColumn footerHeading="Company"></FooterLinksColumn>
+            </div>
+            <div className="FooterLinks2">
+              <FooterLinksColumn footerHeading="Resources"></FooterLinksColumn>
+              <FooterLinksColumn footerHeading="Use Cases"></FooterLinksColumn>
+            </div>
+            <div className="FooterLinks3">
+              <FooterLinksColumn footerHeading="Social"></FooterLinksColumn>
+              <FooterLinksColumn footerHeading="Legal"></FooterLinksColumn>
+            </div>
           </div>
-          <div className="FooterLinks2">
-            <FooterLinksColumn footerHeading="Resources"></FooterLinksColumn>
-            <FooterLinksColumn footerHeading="Use Cases"></FooterLinksColumn>
+          <div className="FooterContentContainer">
+            <hr className="Divider"></hr>
+            <div className="FooterContent">
+              <img
+                className="UntitledUiLogo"
+                src="public/assets/images/untitleduilogo.png"
+              ></img>
+              <span className="FooterText">
+                © 2077 Untitled UI. All rights reserved.
+              </span>
+            </div>
           </div>
-          <div className="FooterLinks3">
-            <FooterLinksColumn footerHeading="Social"></FooterLinksColumn>
-            <FooterLinksColumn footerHeading="Legal"></FooterLinksColumn>
-          </div>
-        </div>
-        <div className="FooterContentContainer">
-          <hr className="Divider"></hr>
-          <div className="FooterContent">
-            <img
-              className="UntitledUiLogo"
-              src="public/assets/images/untitleduilogo.png"
-            ></img>
-            <span className="FooterText">
-              © 2077 Untitled UI. All rights reserved.
-            </span>
-          </div>
-        </div>
-      </footer>
+        </footer>
+      </div>
     </div>
   );
 };

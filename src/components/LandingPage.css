@@ -14,10 +14,11 @@
   justify-content: flex-start;
   flex-direction: column;
   align-items: center;
-  flex: none;
+  align-self: stretch;
   background-color: white;
   box-sizing: border-box;
   padding: 0px 100px;
+  flex-shrink: 0;
 }
 
 .LandingSection {
@@ -1064,10 +1065,10 @@
   justify-content: flex-start;
   flex-direction: column;
   align-items: flex-start;
-  flex: none;
   gap: 20px;
-  width: 768px;
+  align-self: stretch;
   box-sizing: border-box;
+  flex-shrink: 0;
 }
 
 .MetricsSectionHeadingContentContainer {

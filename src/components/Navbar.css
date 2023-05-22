@@ -52,3 +52,19 @@
   align-items: center;
   flex: none;
 }
+
+
+/* Custom Added Css*/
+@media screen and (max-width: 740px) {
+  .Navbar {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .LeftNavItems {
+    flex-direction: column;
+    gap: 15px;
+  }
+}

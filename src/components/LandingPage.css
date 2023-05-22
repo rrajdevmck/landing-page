@@ -1346,6 +1346,26 @@
 }
 
 /* Custom Added Css */
+.FeaturesSection{
+   max-width: 100%;
+}
+.MetricsSection{
+  max-width: 100%;
+  padding: 0px 0px 100px 0px;
+}
+.AvatarImage{
+  border-radius: 50%;
+}
+@media screen and (max-width: 1250px) {
+  .FeaturesRow{
+    flex-direction: column;
+    gap: 40px;
+  }
+  .MetricsSectionInfoContainer{
+    flex-direction: column;
+    gap: 40px;
+  }
+}
 @media screen and (max-width: 1100px) {
   .Logos {
     flex-direction: column;
@@ -1361,12 +1381,89 @@
     width: 480px;
     object-fit: contain;
   }
-  .MetricSectionImage {
-    width: 400px;
-    object-fit: contain;
-  }
 
   .WhitePaddingContainer, .WhiteContainerPadding, .GrayPaddingContainer {
     padding: 0px 50px;
+  }
+  .FooterLinksContainer{
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .WhitePaddingContainer, .WhiteContainerPadding, .GrayPaddingContainer {
+    padding: 0px 20px;
+  }
+  .FooterLinksGroup {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .WhitePaddingContainer, .WhiteContainerPadding, .GrayPaddingContainer {
+    padding: 0px 12px;
+  }
+  .MetricItemRow{
+    gap: 15px;
+  }
+  .MetricItem{
+    width: 250px !important;
+  }
+  .ImageWithAnalytics {
+    width: 420px;
+    object-fit: contain;
+  }
+    .MetricSectionImage {
+    width: 460px;
+    object-fit: contain;
+  }
+  .FooterContent{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .FooterLinksGroup {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .ImageWithAnalytics {
+    width: 380px;
+    object-fit: contain;
+  }
+  .MetricSectionImage {
+    width: 420px;
+    object-fit: contain;
+  }
+  .MetricItem{
+    width: 200px !important;
+  }
+  .FooterLinksGroup {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .ImageWithAnalytics {
+    width: 350px;
+    object-fit: contain;
+  }
+  .MetricSectionImage {
+    width: 380px;
+    object-fit: contain;
+  }
+  .MetricItem{
+    width: 180px !important;
+  }
+  .FooterLinksGroup {
+    width: 320px;
+  }
+  .MetricItemRow{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .MetricItemContent{
+    gap: 20px;
   }
 }

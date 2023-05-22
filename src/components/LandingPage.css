@@ -25,11 +25,11 @@
   justify-content: flex-start;
   flex-direction: column;
   align-items: center;
-  flex: none;
   gap: 48px;
-  width: 1192px;
+  align-self: stretch;
   box-sizing: border-box;
   padding: 100px 0px 0px;
+  flex-shrink: 0;
 }
 
 .LandingSectionContent {
@@ -37,9 +37,10 @@
   justify-content: flex-start;
   flex-direction: column;
   align-items: center;
-  flex: none;
   gap: 20px;
+  align-self: stretch;
   box-sizing: border-box;
+  flex-shrink: 0;
 }
 
 .Badge {
@@ -125,6 +126,8 @@
   letter-spacing: -1px;
   line-height: 72px;
   text-align: center;
+  align-self: stretch;
+  flex-shrink: 0;
 }
 
 .LandingSupportingText {
@@ -159,26 +162,15 @@
   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
   border: solid 1px rgb(208, 213, 221);
   border-radius: 8px;
-  width: 143px;
   background-color: white;
   box-sizing: border-box;
   padding: 16px 28px;
 }
 
-.PlayCircle {
-  width: 24px;
-  height: 24px;
-  overflow: hidden;
-  position: relative;
-}
-
-.Icon {
+.PlayCircleIcon1 {
+  width: 23px;
+  height: 22px;
   object-fit: cover;
-  position: absolute;
-  left: 2px;
-  top: 2px;
-  right: 2px;
-  bottom: 2px;
 }
 
 .TertiaryIconButtonText {
@@ -227,11 +219,11 @@
   justify-content: flex-start;
   flex-direction: column;
   align-items: center;
-  flex: none;
   gap: 32px;
-  width: 1192px;
+  align-self: stretch;
   box-sizing: border-box;
   padding: 100px 32px;
+  flex-shrink: 0;
 }
 
 .SocialProofSectionText {
@@ -296,10 +288,11 @@
   justify-content: flex-start;
   flex-direction: column;
   align-items: center;
-  flex: none;
   gap: 20px;
+  align-self: stretch;
   box-sizing: border-box;
   padding: 100px 0px;
+  flex-shrink: 0;
 }
 
 .FetaureSectionName {
@@ -310,6 +303,8 @@
   font-weight: initial;
   line-height: 24px;
   text-align: center;
+  align-self: stretch;
+  flex-shrink: 0;
 }
 
 .FeatureSectionHeading {
@@ -321,6 +316,8 @@
   letter-spacing: -1px;
   line-height: 44px;
   text-align: center;
+  align-self: stretch;
+  flex-shrink: 0;
 }
 
 .FeatureSectionSubHeading {
@@ -353,7 +350,6 @@
   align-items: flex-start;
   flex: none;
   gap: 30px;
-  width: 1192px;
   box-sizing: border-box;
 }
 
@@ -562,7 +558,6 @@
   align-items: flex-start;
   flex: none;
   gap: 30px;
-  width: 1192px;
   box-sizing: border-box;
 }
 
@@ -924,11 +919,11 @@
   justify-content: flex-start;
   flex-direction: column;
   align-items: flex-start;
-  flex: none;
   gap: 32px;
-  width: 1020px;
+  align-self: stretch;
   box-sizing: border-box;
   padding: 40px 0px;
+  flex-shrink: 0;
 }
 
 .FaqContact {
@@ -1057,11 +1052,11 @@
   justify-content: flex-start;
   flex-direction: column;
   align-items: flex-start;
-  flex: none;
   gap: 10px;
-  width: 1280px;
+  align-self: stretch;
   box-sizing: border-box;
   padding: 10px;
+  flex-shrink: 0;
 }
 
 .MetricsSectionHeadingContent {
@@ -1125,11 +1120,11 @@
 
 .MetricsSectionInfoContainer {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-direction: row;
   align-items: center;
   flex: none;
-  width: 1280px;
+  gap: 96px;
   box-sizing: border-box;
   padding: 0px 32px;
 }
@@ -1141,7 +1136,6 @@
   align-items: flex-start;
   flex: none;
   gap: 64px;
-  width: 560px;
   box-sizing: border-box;
 }
 
@@ -1299,21 +1293,21 @@
 
 .FooterLinks2 {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-direction: row;
   align-items: flex-start;
   flex: none;
-  width: 331px;
+  gap: 157px;
   box-sizing: border-box;
 }
 
 .FooterLinks3 {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-direction: row;
   align-items: flex-start;
   flex: none;
-  width: 285px;
+  gap: 157px;
   box-sizing: border-box;
 }
 
@@ -1360,18 +1354,4 @@
   font-weight: initial;
   line-height: 24px;
   text-align: left;
-  width: 293px;
-}
-
-@media screen and (min-width: 640px) and (max-width: 767px) {
-  .RootWrapperLandingPage {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-    background-color: white;
-    box-sizing: border-box;
-    padding: 24px 0px;
-  }
 }

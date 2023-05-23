@@ -236,15 +236,15 @@ const LandingPage = (props) => {
           </div>
           <div className="FaQs">
             <FAQDetail
-              detailSummaryText="Is there a free trial available?"
-              detailText="Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up"
+              detailSummaryText="What is FiCo?"
+              detailText="FiCo is a design to code tool that takes your Figma design file link and automatically generates code from it. It helps bridge the gap between design and development, making it easier and faster to translate your designs into functional code."
             ></FAQDetail>
             <FAQDetail
-              detailSummaryText="Is there a free trial available?"
-              detailText="Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up"
+              detailSummaryText="How does FiCo work?"
+              detailText="When you provide the Figma design file link, our plugin analyzes the design, ensuring it meets coding standards and best practices. It then generates clean and optimized code based on the design elements and styles."
             ></FAQDetail>
             <FAQDetail
-              detailSummaryText="Is there a free trial available?"
+              detailSummaryText="What is the benefit of using a Figma plugin for linting designs?"
               detailText="Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up"
             ></FAQDetail>
           </div>

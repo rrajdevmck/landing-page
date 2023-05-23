@@ -10,6 +10,7 @@ const FAQDetail = (props) => {
         <img
           className="MinuxCircle1"
           src="public/assets/images/minuxcircle.png"
+          alt="minuxcircle"
         ></img>
       </summary>
       <span className="FaqDetailParagraph">{props.detailText}</span>

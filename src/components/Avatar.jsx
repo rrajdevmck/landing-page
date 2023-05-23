@@ -8,6 +8,7 @@ const Avatar = (props) => {
       <img
         className="AvatarImage"
         src="public/assets/images/AvatarImage.png"
+        alt="AvatarImage"
       ></img>
     </div>
   );

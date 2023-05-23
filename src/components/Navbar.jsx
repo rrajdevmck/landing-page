@@ -11,6 +11,7 @@ const Navbar = (props) => {
         <img
           className="UntitledUiLogo"
           src="public/assets/images/untitleduilogo.png"
+          alt="untitleduilogo"
         ></img>
         <div className="LeftNavLinks">
           <SecondaryLink text="Home"></SecondaryLink>

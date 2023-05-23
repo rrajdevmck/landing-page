@@ -28,6 +28,7 @@ const LandingPage = (props) => {
                 <img
                   className="ArrowRight"
                   src="public/assets/icons/arrowright.svg"
+                  alt="arrowright"
                 ></img>
               </div>
             </div>
@@ -45,6 +46,7 @@ const LandingPage = (props) => {
               <img
                 className="PlayCircleIcon1"
                 src="public/assets/images/playcircleicon.png"
+                alt="playcircleicon"
               ></img>
               <span className="TertiaryIconButtonText">Demo</span>
             </button>
@@ -55,6 +57,7 @@ const LandingPage = (props) => {
           <img
             className="ImageWithAnalytics"
             src="public/assets/images/imageWithAnalytics.png"
+            alt="imageWithAnalytics"
           ></img>
         </section>
         <section className="SocialProofSection">
@@ -65,22 +68,27 @@ const LandingPage = (props) => {
             <img
               className="LayersLogo"
               src="public/assets/images/LayersLogo.png"
+              alt="LayersLogo"
             ></img>
             <img
               className="SisyphusLogo"
               src="public/assets/images/SisyphusLogo.png"
+              alt="SisyphusLogo"
             ></img>
             <img
               className="CircoolesLogo"
               src="public/assets/images/CircoolesLogo.png"
+              alt="CircoolesLogo"
             ></img>
             <img
               className="CatalogLogo"
               src="public/assets/images/CatalogLogo.png"
+              alt="CatalogLogo"
             ></img>
             <img
               className="QuotientLogo"
               src="public/assets/images/QuotientLogo.png"
+              alt="QuotientLogo"
             ></img>
           </div>
         </section>
@@ -102,6 +110,7 @@ const LandingPage = (props) => {
                   <img
                     className="MailIcon1"
                     src="public/assets/images/mailIcon.png"
+                    alt="mailIcon"
                   ></img>
                 </div>
                 <div className="TextAndSupportingText">
@@ -117,6 +126,7 @@ const LandingPage = (props) => {
                   <img
                     className="ZapIcon1"
                     src="public/assets/images/ZapIcon.png"
+                    alt="ZapIcon"
                   ></img>
                 </div>
                 <div className="TextAndSupportingText">
@@ -133,6 +143,7 @@ const LandingPage = (props) => {
                     <img
                       className="BarChart21"
                       src="public/assets/images/barchart.png"
+                      alt="barchart"
                     ></img>
                   </div>
                 </div>
@@ -152,6 +163,7 @@ const LandingPage = (props) => {
                   <img
                     className="SmileIcon"
                     src="public/assets/images/SmileIcon.png"
+                    alt="SmileIcon"
                   ></img>
                 </div>
                 <div className="TextAndSupportingText">
@@ -168,6 +180,7 @@ const LandingPage = (props) => {
                   <img
                     className="CommandIcon"
                     src="public/assets/images/CommandIcon.png"
+                    alt="CommandIcon"
                   ></img>
                 </div>
                 <div className="TextAndSupportingText">
@@ -187,6 +200,7 @@ const LandingPage = (props) => {
                     <img
                       className="MessageCircle1"
                       src="public/assets/images/messagecircle.png"
+                      alt="messagecircle"
                     ></img>
                   </div>
                 </div>
@@ -208,6 +222,7 @@ const LandingPage = (props) => {
           <img
             className="SisyphusLogoRemovebgPreview1"
             src="public/assets/images/SisyphusLogoremovebgpreview.png"
+            alt="SisyphusLogoremovebgpreview"
           ></img>
           <div className="QuoteAndAttribution">
             <span className="Quote">
@@ -316,6 +331,7 @@ const LandingPage = (props) => {
             <img
               className="MetricSectionImage"
               src="public/assets/images/MetricSectionImage.png"
+              alt="MetricSectionImage"
             ></img>
           </div>
         </section>
@@ -356,6 +372,7 @@ const LandingPage = (props) => {
               <img
                 className="UntitledUiLogo"
                 src="public/assets/images/untitleduilogo.png"
+                alt="untitleduilogo"
               ></img>
               <span className="FooterText">
                 © 2077 Untitled UI. All rights reserved.

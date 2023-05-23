@@ -4,7 +4,7 @@ import "./SecondaryLink.css";
 
 const SecondaryLink = (props) => {
   return (
-    <a className="SecondaryLink">
+    <a href="#" className="SecondaryLink">
       <span className="SecondaryLinkText">{props.text}</span>
     </a>
   );
